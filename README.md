@@ -1,9 +1,5 @@
 BIM3DSG OBJ Importer
 
-Page Under construction
+Discontinued project! see the new project CHIMERA: https://github.com/3DSG-dev/CHIMERA-obj-importer
 
-For information:
-
-ICT development manager: Fabrizio Rechichi - fabrizio.rechichi@polimi.it
-
-Scientific supervisor: Francesco Fassi - francesco.fassi@polimi.it
+Code upoloaded only to mantain old istances.
