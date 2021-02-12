@@ -356,6 +356,8 @@
 		<row><td>ITinnovationsAddForXceedToolkit.dll</td><td>{DEB63D9D-7CAF-4552-AFC5-C26B4B29E28E}</td><td>INSTALLDIR</td><td>258</td><td/><td>itinnovationsaddforxceedtool</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ITinnovationsLibrary.dll</td><td>{64F24FAE-E07B-464D-84D5-702490BF21A8}</td><td>INSTALLDIR</td><td>258</td><td/><td>itinnovationslibrary.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Microsoft.Windows.Shell.dll</td><td>{3F7EE771-1D85-48FC-9977-F31E97CCA674}</td><td>INSTALLDIR</td><td>258</td><td/><td>microsoft.windows.shell.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NewDataSource1</td><td>{775F5D01-3C0C-45C3-AA1D-8E9946297118}</td><td>INSTALLDIR</td><td>40</td><td/><td>NewODBCDataSource1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NewDriver1</td><td>{B4EB6C7A-24EE-4898-861D-B3ABA6728033}</td><td>SystemFolder</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Xceed.Wpf.Toolkit.dll</td><td>{A45088FF-8455-4CF3-BA66-3CFF158FE169}</td><td>INSTALLDIR</td><td>258</td><td/><td>xceed.wpf.toolkit.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -1083,6 +1085,7 @@
 		<row><td>INSTALLDIR</td><td>Microsoft.Windows.Shell.dll</td></row>
 		<row><td>INSTALLDIR</td><td>Xceed.Wpf.Toolkit.dll</td></row>
 		<row><td>ProgramFiles64Folder</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>SystemFolder</td><td>NewDriver1</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1914,6 +1917,8 @@
 		<row><td>AlwaysInstall</td><td>ITinnovationsAddForXceedToolkit.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ITinnovationsLibrary.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Microsoft.Windows.Shell.dll</td></row>
+		<row><td>AlwaysInstall</td><td>NewDataSource1</td></row>
+		<row><td>AlwaysInstall</td><td>NewDriver1</td></row>
 		<row><td>AlwaysInstall</td><td>Xceed.Wpf.Toolkit.dll</td></row>
 	</table>
 
@@ -1929,19 +1934,19 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>bim3dsg_importer.exe</td><td>BIM3DSG_Importer.exe</td><td>BIM3DS~1.EXE|BIM3DSG-Importer.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>1</td><td/></row>
-		<row><td>bim3dsg_importer.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>BIM3DS~1.CON|BIM3DSG-Importer.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe.config</td><td>1</td><td/></row>
-		<row><td>itinnovationsaddforxceedtool</td><td>ITinnovationsAddForXceedToolkit.dll</td><td>ITINNO~1.DLL|ITinnovationsAddForXceedToolkit.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\ITinnovationsAddForXceedToolkit.dll</td><td>1</td><td/></row>
-		<row><td>itinnovationslibrary.dll</td><td>ITinnovationsLibrary.dll</td><td>ITINNO~1.DLL|ITinnovationsLibrary.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\ITinnovationsLibrary.dll</td><td>1</td><td/></row>
-		<row><td>microsoft.windows.shell.dll</td><td>Microsoft.Windows.Shell.dll</td><td>MICROS~1.DLL|Microsoft.Windows.Shell.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\Microsoft.Windows.Shell.dll</td><td>1</td><td/></row>
-		<row><td>testscript_1.mlx</td><td>ISX_DEFAULTCOMPONENT2</td><td>TESTSC~1.MLX|testscript-1.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-1.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_2.mlx</td><td>ISX_DEFAULTCOMPONENT3</td><td>TESTSC~1.MLX|testscript-2.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-2.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_3.mlx</td><td>ISX_DEFAULTCOMPONENT4</td><td>TESTSC~1.MLX|testscript-3.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-3.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_4.mlx</td><td>ISX_DEFAULTCOMPONENT5</td><td>TESTSC~1.MLX|testscript-4.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-4.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_5.mlx</td><td>ISX_DEFAULTCOMPONENT6</td><td>TESTSC~1.MLX|testscript-5.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-5.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_6.mlx</td><td>ISX_DEFAULTCOMPONENT7</td><td>TESTSC~1.MLX|testscript-6.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-6.mlx</td><td>1</td><td/></row>
-		<row><td>testscript_7.mlx</td><td>ISX_DEFAULTCOMPONENT8</td><td>TESTSC~1.MLX|testscript-7.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\testscript-7.mlx</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.toolkit.dll</td><td>Xceed.Wpf.Toolkit.dll</td><td>XCEEDW~1.DLL|Xceed.Wpf.Toolkit.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\Xceed.Wpf.Toolkit.dll</td><td>1</td><td/></row>
+		<row><td>bim3dsg_importer.exe</td><td>BIM3DSG_Importer.exe</td><td>BIM3DS~1.EXE|BIM3DSG-Importer.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>1</td><td/></row>
+		<row><td>bim3dsg_importer.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>BIM3DS~1.CON|BIM3DSG-Importer.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe.config</td><td>1</td><td/></row>
+		<row><td>itinnovationsaddforxceedtool</td><td>ITinnovationsAddForXceedToolkit.dll</td><td>ITINNO~1.DLL|ITinnovationsAddForXceedToolkit.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\ITinnovationsAddForXceedToolkit.dll</td><td>1</td><td/></row>
+		<row><td>itinnovationslibrary.dll</td><td>ITinnovationsLibrary.dll</td><td>ITINNO~1.DLL|ITinnovationsLibrary.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\ITinnovationsLibrary.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.windows.shell.dll</td><td>Microsoft.Windows.Shell.dll</td><td>MICROS~1.DLL|Microsoft.Windows.Shell.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\Microsoft.Windows.Shell.dll</td><td>1</td><td/></row>
+		<row><td>testscript_1.mlx</td><td>ISX_DEFAULTCOMPONENT2</td><td>TESTSC~1.MLX|testscript-1.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-1.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_2.mlx</td><td>ISX_DEFAULTCOMPONENT3</td><td>TESTSC~1.MLX|testscript-2.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-2.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_3.mlx</td><td>ISX_DEFAULTCOMPONENT4</td><td>TESTSC~1.MLX|testscript-3.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-3.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_4.mlx</td><td>ISX_DEFAULTCOMPONENT5</td><td>TESTSC~1.MLX|testscript-4.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-4.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_5.mlx</td><td>ISX_DEFAULTCOMPONENT6</td><td>TESTSC~1.MLX|testscript-5.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-5.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_6.mlx</td><td>ISX_DEFAULTCOMPONENT7</td><td>TESTSC~1.MLX|testscript-6.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-6.mlx</td><td>1</td><td/></row>
+		<row><td>testscript_7.mlx</td><td>ISX_DEFAULTCOMPONENT8</td><td>TESTSC~1.MLX|testscript-7.mlx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\testscript-7.mlx</td><td>1</td><td/></row>
+		<row><td>xceed.wpf.toolkit.dll</td><td>Xceed.Wpf.Toolkit.dll</td><td>XCEEDW~1.DLL|Xceed.Wpf.Toolkit.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\Xceed.Wpf.Toolkit.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2099,6 +2104,8 @@
 		<row><td>ITinnovationsAddForXceedToolkit.dll</td><td/><td/><td>_F758AD33_A36A_4829_8C15_32BFFDB6C9D9_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ITinnovationsLibrary.dll</td><td/><td/><td>_CE7FF1C8_EBBA_4EB2_9FD3_8AB4DB856D70_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Microsoft.Windows.Shell.dll</td><td/><td/><td>_2B64EE02_B307_4D6C_99F9_C87315D39AD0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NewDataSource1</td><td/><td/><td>_8F1EDD93_01F9_4A59_894E_256B388044DC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NewDriver1</td><td/><td/><td>_407C551B_AD7E_43EA_94FB_FD28CC26EA53_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Xceed.Wpf.Toolkit.dll</td><td/><td/><td>_C678D41E_564F_4115_9BE0_2E0993DA061C_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -3965,7 +3972,6 @@
 	<table name="ISVirtualPackage">
 		<col key="yes" def="s72">Name</col>
 		<col def="s255">Value</col>
-		<row><td>AppVClientVersion</td><td>5</td></row>
 	</table>
 
 	<table name="ISVirtualRegistry">
@@ -3979,22 +3985,6 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s255">Name</col>
 		<col def="s255">Value</col>
-		<row><td>CD_ROM</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>CD_ROM</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>Custom</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>Custom</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>DVD-10</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>DVD-10</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>DVD-18</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>DVD-18</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>DVD-5</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>DVD-5</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>DVD-9</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>DVD-9</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>SingleImage</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>SingleImage</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
-		<row><td>WebDeployment</td><td>Express</td><td>AppxTargetMSIXCoreMax</td><td>10.0.14393.0</td></row>
-		<row><td>WebDeployment</td><td>Express</td><td>AppxTargetMSIXCoreMin</td><td>6.1.7601.0</td></row>
 	</table>
 
 	<table name="ISVirtualShortcut">
@@ -4062,9 +4052,9 @@
 		<row><td>BIM3DSG_Importer.v_54F051D34F714D1D87FE7163B62AF8B4.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>NewShortcut1_A1F259FDCB2044DA90BD4605406F4676.exe</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Uninstall.ico</td><td>0</td></row>
 		<row><td>NewShortcut1_E744B230808848889154A95F7B8F842E.exe</td><td/><td>C:\Unità\HD WD 750GB\Politecnico\TFS\PoliBIM\BIM3DSG\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
-		<row><td>NewShortcut21_1F1AC3A1CB19432B8E95B6C4BB2DD02C.exe</td><td/><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
+		<row><td>NewShortcut21_1F1AC3A1CB19432B8E95B6C4BB2DD02C.exe</td><td/><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_D7D4D973E5F44810A86F6EFBA15FB157.exe</td><td/><td>C:\Unità\HD WD 750GB\Politecnico\TFS\PoliBIM\BIM3DSG\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
-		<row><td>NewShortcut2_DD6DF2A789AD4BA5B1647A08220C19D8.exe</td><td/><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-obj-importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
+		<row><td>NewShortcut2_DD6DF2A789AD4BA5B1647A08220C19D8.exe</td><td/><td>C:\Unità\Samsung 1TB\Politecnico\GitHub\3DSG-dev\BIM3DSG-Importer\BIM3DSG-Importer\bin\Release\BIM3DSG-Importer.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4199,7 +4189,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{DF3B6A95-9785-4087-8D71-5887A4D3A191}</td></row>
 		<row><td>ISUSSignature</td><td>{DD4B8D4C-C814-4065-B478-2C1919216073}</td></row>
-		<row><td>ISUpdateNotifications</td><td>0</td></row>
 		<row><td>ISVisitedViews</td><td>viewAssistant,viewShortcuts,viewISToday,viewProject,viewUpgradePaths,viewUpdateService,viewAppFiles,viewObjects,viewFileExtensions,viewServices,viewUI,viewTextMessages,viewSystemSearch,viewCustomActions,viewRelease</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4211,7 +4200,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SaveAsSchema</td><td/></row>
 		<row><td>SccEnabled</td><td>0</td></row>
 		<row><td>SccPath</td><td/></row>
-		<row><td>SchemaVersion</td><td>783</td></row>
+		<row><td>SchemaVersion</td><td>782</td></row>
 		<row><td>Type</td><td>MSI</td></row>
 	</table>
 
@@ -4453,6 +4442,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Description</col>
 		<col def="s255">DriverDescription</col>
 		<col def="i2">Registration</col>
+		<row><td>NewODBCDataSource1</td><td>NewDataSource1</td><td>NewDataSource1</td><td>NewDriver1</td><td>0</td></row>
 	</table>
 
 	<table name="ODBCDriver">
@@ -4461,6 +4451,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Description</col>
 		<col def="s72">File_</col>
 		<col def="S72">File_Setup</col>
+		<row><td>NewODBCDriver1</td><td>NewDriver1</td><td>NewDriver1</td><td>FileKey</td><td/></row>
 	</table>
 
 	<table name="ODBCSourceAttribute">
@@ -4578,9 +4569,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]BIM3DSG-Importer.exe</td><td/></row>
-		<row><td>ProductCode</td><td>{3327671F-8098-435C-BC69-FE3C7FDCD61E}</td><td/></row>
+		<row><td>ProductCode</td><td>{EAE811F8-FF53-4CEB-BAB5-6DC3AD5C46D6}</td><td/></row>
 		<row><td>ProductName</td><td>BIM3DSG Importer</td><td/></row>
-		<row><td>ProductVersion</td><td>5.01.001</td><td/></row>
+		<row><td>ProductVersion</td><td>5.00.001</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4593,7 +4584,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
 		<row><td>SHOWLAUNCHPROGRAM</td><td>-1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL;ISACTIONPROP4</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL;ISACTIONPROP1;ISACTIONPROP2;ISACTIONPROP3</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
 		<row><td>UpgradeCode</td><td>{3BF75DAF-DD83-47D1-8F1B-88680A0EC9B1}</td><td/></row>
@@ -4869,7 +4860,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">ActionProperty</col>
 		<col def="S72">ISDisplayName</col>
 		<row><td>{00000000-0000-0000-0000-000000000000}</td><td>***ALL_VERSIONS***</td><td></td><td></td><td>2</td><td/><td>ISFOUNDNEWERPRODUCTVERSION</td><td>ISPreventDowngrade</td></row>
-		<row><td>{3BF75DAF-DD83-47D1-8F1B-88680A0EC9B1}</td><td></td><td>5.01.001</td><td></td><td>257</td><td/><td>ISACTIONPROP4</td><td>NewUpgradeEntry4</td></row>
+		<row><td>{00000000-0000-0000-0000-000000000000}</td><td>1.00.001</td><td>1.00.001</td><td></td><td>768</td><td/><td>ISACTIONPROP1</td><td>NewUpgradeEntry1</td></row>
+		<row><td>{00000000-0000-0000-0000-000000000000}</td><td>2.00.001</td><td>2.00.004</td><td></td><td>768</td><td/><td>ISACTIONPROP2</td><td>NewUpgradeEntry2</td></row>
+		<row><td>{00000000-0000-0000-0000-000000000000}</td><td>3.00.001</td><td>3.00.001</td><td></td><td>768</td><td/><td>ISACTIONPROP3</td><td>NewUpgradeEntry3</td></row>
 	</table>
 
 	<table name="Verb">

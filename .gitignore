@@ -5,6 +5,8 @@ BIM3DSG-Importer/obj/**
 BIM3DSG-Importer/Chimera-Importer.pfx
 BIM3DSG-Importer/ITinnovationsLibrary.dll
 BIM3DSG-Importer/ITinnovationsAddForXceedToolkit.dll
+ExtendedWPFToolkit/Xceed.Wpf.Toolkit/bin/**
+ExtendedWPFToolkit/Xceed.Wpf.Toolkit/obj/**
 Installer/Installer/**
 BIM3DSG-Importer.sln.DotSettings*
 UpgradeLog.htm

@@ -81,7 +81,7 @@ namespace BIM3DSG_Importer.SelectDB
             {
                 ComboBoxItem cbi = new ComboBoxItem
                                        {
-                                           Content = myReader["Title"],
+                                           Content = myReader["DbName"],
                                            Tag = myReader["Name"]
                                        };
 
