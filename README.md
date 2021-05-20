@@ -4,6 +4,8 @@ Discontinued project! see the new project CHIMERA: https://github.com/3DSG-dev/C
 
 Code upoloaded only to mantain old istances.
 
+<br>
+
 <b>For information:</b>
 
 ICT development manager: Fabrizio Rechichi - fabrizio.rechichi@itinnovations.it
